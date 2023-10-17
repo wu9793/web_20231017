@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 80%;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        table,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        tr:nth-child(even) {
+            background-color: gray;
+        }
+
+        tr:nth-child(odd) {
+            background-color: aliceblue;
+        }
+
+        td:hover {
+            background-color: lightblue;
+        }
+
+        .text-align {
+            text-align: right;
+        }
+        .text-align> a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container text-align">
+        <h3>student list</h3>
+        <a href="./create.html">add&nbsp;&nbsp;&nbsp;</a>
+        <table>
+            <tr>
+                <td>id</td>
+                <td>name</td>
+                <td>mobile</td>
+                <td>pic</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>amy</td>
+                <td>0911-111-111</td>
+                <td>amy.jpg</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>amy</td>
+                <td>0911-111-111</td>
+                <td>amy.jpg</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>amy</td>
+                <td>0911-111-111</td>
+                <td>amy.jpg</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
