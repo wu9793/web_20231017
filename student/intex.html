@@ -14,7 +14,8 @@
 
         table,
         tr,
-        td {
+        td,
+        th {
             border: 1px solid black;
             border-collapse: collapse;
             text-align: center;
@@ -39,8 +40,20 @@
         .text-align {
             text-align: right;
         }
-        .text-align> a{
+
+        a {
             text-decoration: none;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .width-10{
+            width: 10%;
+        }
+        .width-10 > a{
+            color: green;
         }
     </style>
 </head>
@@ -51,29 +64,73 @@
         <a href="./create.html">add&nbsp;&nbsp;&nbsp;</a>
         <table>
             <tr>
-                <td>id</td>
-                <td>name</td>
-                <td>mobile</td>
-                <td>pic</td>
+                <th>id</th>
+                <th>name</th>
+                <th>mobile</th>
+                <th>pic</th>
+                <th>oprate</th>
             </tr>
             <tr>
                 <td>1</td>
-                <td>amy</td>
+                <td><a href="./edit.html?id=1">amy</a></td>
                 <td>0911-111-111</td>
                 <td>amy.jpg</td>
+                <td class="width-10">
+                    <a href="./edit.html?id=1">edit</a>
+                    <a href="./del.html">&nbsp;&nbsp;del</a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="./edit.html?id=2">bob</a></td>
+                <td>0911-111-111</td>
+                <td>amy.jpg</td>
+                <td class="width-10">
+                    <a href="./edit.html?id=2">edit</a>
+                    <a href="./del.html">&nbsp;&nbsp;del</a>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="./edit.html?id=3">cat</a></td>
+                <td>0911-111-111</td>
+                <td>amy.jpg</td>
+                <td class="width-10">
+                    <a href="./edit.html?id=3">edit</a>
+                    <a href="./del.html">&nbsp;&nbsp;del</a>
+                </td>
             </tr>
             <tr>
                 <td>1</td>
-                <td>amy</td>
+                <td><a href="./edit.html?id=1">amy</a></td>
                 <td>0911-111-111</td>
                 <td>amy.jpg</td>
+                <td class="width-10">
+                    <a href="./edit.html?id=1">edit</a>
+                    <a href="./del.html">&nbsp;&nbsp;del</a>
+                </td>
             </tr>
             <tr>
-                <td>1</td>
-                <td>amy</td>
+                <td>2</td>
+                <td><a href="./edit.html?id=2">bob</a></td>
                 <td>0911-111-111</td>
-                <td>amy.jpg</td>
+                <td>bob.jpg</td>
+                <td class="width-10">
+                    <a href="./edit.html?id=2">edit</a>
+                    <a href="./del.html">&nbsp;&nbsp;del</a>
+                </td>
             </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="./edit.html?id=3">cat</a></td>
+                <td>0911-111-111</td>
+                <td>cat.jpg</td>
+                <td class="width-10">
+                    <a href="./edit.html?id=3">edit</a>
+                    <a href="./del.html">&nbsp;&nbsp;del</a>
+                </td>
+            </tr>
+
         </table>
     </div>
 </body>
